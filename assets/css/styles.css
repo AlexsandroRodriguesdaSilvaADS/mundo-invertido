@@ -56,6 +56,15 @@
     transform: rotateZ(180deg) scaleX(-1);
 }
 
+.dark-theme #bottom-characters {
+    top: -200px;
+    transition: 0.0001s;
+}
+
+.light-theme #bottom-characters {
+    transition: 0.0001s;
+}
+
 h1,
 h2,
 h3 {
